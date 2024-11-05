@@ -3,7 +3,6 @@ make: echo-server.c
 
 run: echo-server # one terminal
 	./echo-server -p 8080 
-# only use once
 
 test: # serperate terminal
 	telnet localhost 8080
